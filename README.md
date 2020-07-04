@@ -15,4 +15,5 @@
 # others
 
 1.可以用uwsgi增加并发能力，supervisor任务管理。
+
 2.最好将整个服务使用docker部署。
