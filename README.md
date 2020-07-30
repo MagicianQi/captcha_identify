@@ -10,7 +10,7 @@
 
 # How to use
 
-    python flask_server.py .
+    python flask_server.py &
 
 # others
 
