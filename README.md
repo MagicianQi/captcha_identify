@@ -10,10 +10,8 @@
 
 # How to use
 
-    python flask_server.py &
+    gunicorn --workers=2 --bind=0.0.0.0:8080  flask_server:app
 
 # others
 
-1.可以用uwsgi增加并发能力，supervisor任务管理。
-
-2.最好将整个服务使用docker部署。
+1.最好将整个服务使用docker部署。
